@@ -1,0 +1,117 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  font-family:  'Inter', 'system-ui', 'sans-serif';
+}
+
+.assistant-markdown {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.assistant-markdown {
+  width: 100%;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.75;
+}
+
+.assistant-markdown > :first-child {
+  margin-top: 0;
+}
+
+.assistant-markdown > :last-child {
+  margin-bottom: 0;
+}
+
+.assistant-markdown h1,
+.assistant-markdown h2,
+.assistant-markdown h3 {
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+.assistant-markdown h1 {
+  margin: 1.75rem 0 0.75rem;
+  font-size: 1.6rem;
+}
+
+.assistant-markdown h2 {
+  margin: 1.6rem 0 0.65rem;
+  font-size: 1.3rem;
+}
+
+.assistant-markdown h3 {
+  margin: 1.4rem 0 0.6rem;
+  font-size: 1.1rem;
+}
+
+.assistant-markdown p {
+  margin: 0.8rem 0;
+}
+
+.assistant-markdown ul,
+.assistant-markdown ol {
+  margin: 0.8rem 0;
+  padding-left: 1.6rem;
+}
+
+.assistant-markdown ul {
+  list-style: disc;
+}
+
+.assistant-markdown ol {
+  list-style: decimal;
+}
+
+.assistant-markdown li {
+  margin: 0.35rem 0;
+}
+
+.assistant-markdown pre {
+  white-space: pre;
+}
+
+.assistant-markdown pre code {
+  display: block;
+  padding: 0;
+  background: transparent;
+  overflow-wrap: normal;
+  color: inherit;
+}
+
+.assistant-markdown :not(pre) > code {
+  border-radius: 0.35rem;
+  padding: 0.15rem 0.35rem;
+  font-size: 0.9em;
+}
+
+.assistant-markdown blockquote {
+  margin: 1rem 0;
+  border-left: 3px solid hsl(var(--border));
+  padding-left: 1rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.assistant-markdown a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.assistant-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.assistant-markdown th,
+.assistant-markdown td {
+  border: 1px solid hsl(var(--border));
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.assistant-markdown th {
+  background: hsl(var(--muted));
+  font-weight: 600;
+}
